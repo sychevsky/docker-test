@@ -22,7 +22,7 @@ import jetbrains.buildServer.configs.kotlin.v2018_2.vcs.GitVcsRoot'
 version = "2018.2"
 
 project {
-    vcsRoot(ProjectVcs)
+#    vcsRoot(ProjectVcs)
     buildType(Build)
 }
 
